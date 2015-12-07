@@ -1,0 +1,26 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": [],
+      "request_body": "",
+      "url": "http://api.zanox.com/json/2011-03-01/products?connectid=foobar&items=1&programs=13212&q=tv+led+32"
+    },
+    "response": {
+      "body": "{\"page\":0,\"items\":1,\"total\":241,\"query\":\"tv led 32\",\"productItems\":{\"productItem\":[{\"@id\":\"8da9d468080fb24227b141cbd5d48c57\",\"name\":\"Suporte Fixo Multivisão para TVs LCD\\/LED\\/Plasma e 3D de 32\\\" à 84\\\" Pronto para Instalar -STPF63\",\"modified\":\"2015-12-04T15:05:59Z\",\"program\":{\"@id\":\"13212\",\"$\":\"Ricardo Eletro BR\"},\"price\":66.4,\"currency\":\"BRL\",\"trackingLinks\":{\"trackingLink\":[{\"@adspaceId\":\"2034022\",\"ppv\":\"http:\\/\\/ad.zanox.com\\/ppv\\/?30343243C59505925&ULP=[[Suporte-Fixo-Multivisao-para-TVs-LCDLEDPlasma-e-3D-de-32-a-84-Pronto-para-Instalar-STPF63\\/108-3260-3979-4657\\/?utm_source=Zanox&prc=8803&utm_medium=CPC_TV_e_Video_Zanox&utm_campaign=Acessorios_para_TV&utm_content=Suportes&cda=3EAC-1BE0-DA57-40AD]]&zpar9=[[foobar]]\",\"ppc\":\"http:\\/\\/ad.zanox.com\\/ppc\\/?30343243C59505925&ULP=[[Suporte-Fixo-Multivisao-para-TVs-LCDLEDPlasma-e-3D-de-32-a-84-Pronto-para-Instalar-STPF63\\/108-3260-3979-4657\\/?utm_source=Zanox&prc=8803&utm_medium=CPC_TV_e_Video_Zanox&utm_campaign=Acessorios_para_TV&utm_content=Suportes&cda=3EAC-1BE0-DA57-40AD]]&zpar9=[[foobar]]\"}]},\"description\":\"\",\"manufacturer\":\"Multivisão\",\"ean\":7896643408005,\"image\":{\"large\":\"http:\\/\\/parceiroimg.maquinadevendas.com.br\\/produto\\/491_12778_20091030145930.jpg\"},\"merchantCategory\":\"Acessórios para TV\",\"merchantProductId\":491}]}}",
+      "headers": {
+        "Date": "Mon, 07 Dec 2015 02:54:41 GMT",
+        "Server": "Apache-Coyote/1.1",
+        "Content-Type": "application/json;charset=UTF-8",
+        "Vary": "Accept-Encoding",
+        "Via": "1.1 api.zanox.com",
+        "Connection": "close",
+        "Transfer-Encoding": "chunked"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]
